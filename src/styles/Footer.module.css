@@ -1,0 +1,56 @@
+footer {
+	display: flex;
+	justify-content: space-around;
+	background-color: #FFD6E0;
+	color: white;
+	flex-direction: column;
+	font-size: 18px;
+	bottom: 0;
+	width: 100%
+}
+
+.container {
+	display: flex;
+	padding: 20px;
+	justify-content: space-around;
+	gap: 80px
+}
+
+.container div {
+	display: flex;
+	flex-direction: column;
+	font-weight: light
+}
+
+.textsocial {
+	display: flex;
+	gap: 100px
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	gap: 30px
+}
+
+.contact article {
+	display: flex;
+	flex-direction: column;
+	gap: 10px
+}
+
+.contact h1 {
+	width: 60%
+}
+
+
+
+.copyright {
+	background-color: #E1B495;
+	padding: 3px
+}
+
+.description img{
+	width: 180px;
+	margin: 20px
+}

@@ -1,0 +1,78 @@
+{
+    "cajas-de-regalo": {
+        "genericas": [
+            {
+                "id": 1,
+                "name": "Caja de regalo de carton.",
+                "path": "./assets/cajas-de-regalo/cajas-de-regalo-01.jpeg",
+                "description": "Esta caja para regalo esta decorado con dibujos de mariposas hechos en pintura de vinilo."
+            },
+            {
+                "id": 2,
+                "name": "Caja de regalo de carton.",
+                "path": "./assets/cajas-de-regalo/cajas-de-regalo-02.jpeg",
+                "description": "Esta caja para regalo esta decorado con dibujos de pasteles y una frase de feliz cumpleanos, ideal para guardar un regalo para un cumpleanos."
+            },
+            {
+                "id": 3,
+                "name": "Caja de regalo de carton.",
+                "path": "./assets/cajas-de-regalo/cajas-de-regalo-03.jpeg",
+                "description": "Esta caja para regalo esta decorado con dibujos de globos y una frase de feliz cumpleanos, ideal para guardar un regalo para un cumpleanos."
+            },
+            {
+                "id": 4,
+                "name": "Caja de regalo de carton.",
+                "path": "./assets/cajas-de-regalo/cajas-de-regalo-04.jpeg",
+                "description": "Esta caja para regalo es para colocar sobres, con una frase hecha en vinilo que pone 'Lluvia de sobres'."
+            },
+            {
+                "id": 5,
+                "name": "Caja de regalo de carton.",
+                "path": "./assets/cajas-de-regalo/cajas-de-regalo-05.jpeg",
+                "description": "Esta caja para regalo esta hecha de una forma cilindrica, con una tapa con flores amarillas en foami con un fondo de color rosado y detalles de petalos en color morado, tiene una frase de cumpleanos con un lindo dibujo y pintado de color blanco completamente, ideal para guardar un regalo de cumpleanos."
+            },
+            {
+                "id": 6,
+                "name": "Caja de regalo de carton.",
+                "path": "./assets/cajas-de-regalo/cajas-de-regalo-06.jpeg",
+                "description": "Esta caja de regalo es para regalar a un tu pareja, esta completamente pintada de blanco con una frase con detalles de corazones y color rojo que dice 'Para el amor de mi vida'."
+            },
+            {
+                "id": 7,
+                "name": "Caja de regalo de carton.",
+                "path": "./assets/cajas-de-regalo/cajas-de-regalo-07.jpeg",
+                "description": "Esta caja de regalo es para una boda donde se pueden colocar sobres, viene con un bordado en dorado, detalles en foami y de totalmente de blanco y con una frase que dice 'Nuestra boda'."
+            }
+        ],
+        "personalizadas": [
+            {
+                "id": 1,
+                "name": "Caja de regalo de carton.",
+                "path": "./assets/cajas-de-regalo/cajas-de-regalo-personalizadas-01.jpeg",
+                "description": "Esta caja es grande, se le puede colocar: un pastel, dulces, fotos (de preferecia), color de fondo y frases colocadas en banderinas.",
+                "other-img": [
+                    {
+                        "path": "./assets/cajas-de-regalo/cajas-de-regalo-personalizadas-02.jpeg"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Caja de regalo de carton.",
+                "path": "./assets/cajas-de-regalo/cajas-de-regalo-personalizadas-03.jpeg",
+                "description": "Esta caja es grande, se puede estirar la tapa al abrirla, se puedes colocar: fotos, textos, dulces, globos, y detalles en foami ademas de poder cambiar el color del fondo."
+            },    
+            {
+                "id": 3,
+                "name": "Caja de regalo de carton.",
+                "path": "./assets/cajas-de-regalo/cajas-de-regalo-personalizadas-04.jpeg",
+                "description": "Esta caja es grande al abrirla se desarma para que se pueda ver el detalle, se puede colocar: dulces, fotos, textos, detalles en foami entre otros.",               
+								"other-img": [
+                    {
+                        "path": "./assets/cajas-de-regalo/cajas-de-regalo-personalizadas-06.jpeg"
+                    }
+                ]
+            }
+        ]
+		}
+}

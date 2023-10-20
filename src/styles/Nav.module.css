@@ -1,0 +1,24 @@
+.bottombrand  {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20%;
+	color: white;
+	background-color: #7DD0D4;
+
+}
+
+.bottombrand a {
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	padding: 15px
+}
+
+.bottombrand a:hover {
+	background-color:#FFD6E0;
+	color: white
+}
+
+
+

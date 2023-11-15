@@ -4,7 +4,7 @@ const Nav = () => {
 
   return (
      	<nav className={styles.bottombrand}>
-    				<a href="#">Inicio</a>
+    				<a href="/inicio">Inicio</a>
     				<a href="#">Sobre nosotros</a>
     				<a href="#">Cajas de Regalo</a>	
 						<a href="#">Anchetas</a>

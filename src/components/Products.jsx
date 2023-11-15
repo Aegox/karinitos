@@ -1,5 +1,4 @@
 import data from "../data.json";
-import Product from "./Product.jsx";
 import styles from "../styles/Products.module.css";
 
 const Products = () => {

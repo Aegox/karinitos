@@ -6,7 +6,7 @@ const Footer = () => {
    <footer>
 		<div className={styles.container}>
 			<div>
-				<section className={styles.textsocial}>
+			<section className={styles.textsocial}>
 					<h3>AMAMOS LO QUE HACEMOS</h3>	
 					<h3>SIGUENOS EN INSTAGRAM!</h3>	
 					<h3>ENCUENTRANOS EN FACEBOOK</h3>	
@@ -28,7 +28,7 @@ const Footer = () => {
 		</div>
 		<section className={styles.copyright}>
 			<h6>Karinitos | Todos los derechos reservados | Bogota, Colombia | 2023</h6>	
-		</section>
+    </section>        
 	</footer>  
 	)
 }

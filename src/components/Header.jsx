@@ -21,7 +21,7 @@ const Header = () => {
 			<div className={styles.centerbrand}>
 				<img src="./public/assets/karinitos.png" alt=""/>	
 			</div>
-			<Nav/>
+      <Nav/>  
     </header>
   )
 }

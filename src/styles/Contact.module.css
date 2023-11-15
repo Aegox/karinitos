@@ -1,0 +1,75 @@
+.container {
+	display: flex;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("./public/assets/composicion-arte.jpg");
+  width: 100%;
+  height: 800px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+}
+
+#form {
+  display: flex;
+  background-color: rgba(255,255,255, 0.8);
+  width: 60%;
+  height: 70%;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 40px;
+}
+
+#form label {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px 0px 10px;
+  width: 30%;
+  opacity: 100%;
+  font-size: 15px
+}
+
+#form label input, #form select{
+  height: 40px;
+  background-color: lightgrey;
+  border: none;
+  font-size: 15px;
+  padding-left: 5px
+}
+
+#form #mensaje textarea {
+  background-color: lightgrey;
+  border: none;
+  font-size: 15px;
+  padding: 5px
+}
+
+
+
+#form label input:focus, #form select:focus, #form #mensaje textarea {
+  outline: none
+}
+
+#form h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 25px
+}
+
+#form #mensaje {
+  width: 100%;
+  
+}
+
+#form button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  background-color: orange;
+  color: white;
+  opacity: 1
+
+}
+
+#form button:hover {
+  cursor: pointer
+}

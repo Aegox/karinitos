@@ -38,7 +38,7 @@ const About = () => {
         <main className={styles.container}>
           <section className={styles.introduccion}>
             <span>Hacemos que compartir sea hermoso dandole a tu seres queridos los mejores detalles.</span>
-            <img src="./public/assets/image1.png"/>
+            <img src="/assets/image1.png"/>
           </section>
           <section className={styles.about}>
             <article className={styles.text}>
@@ -48,8 +48,8 @@ const About = () => {
               <p> Descubre el arte de celebrar con nosotros y deja que Karinitos Decoraciones, anchetas y regalos sea tu socio en la creación de <strong>momentos inolvidables</strong>.</p>
             </article>
             <article className={styles.images}>
-              <img src="./src/assets/decoraciones/decoracion-para-fiestas-04.jpeg"/>
-              <img src="./src/assets/anchetas/anchetas-03.jpeg"/> 
+              <img src="/assets/decoraciones/decoracion-para-fiestas-04.jpeg"/>
+              <img src="/assets/anchetas/anchetas-03.jpeg"/> 
             </article>
           </section>       
           <section className={styles.coments}>       

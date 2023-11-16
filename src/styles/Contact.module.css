@@ -1,6 +1,6 @@
 .container {
 	display: flex;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("./public/assets/composicion-arte.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("/assets/composicion-arte.jpg");
   width: 100%;
   height: 800px;
   background-size: 100%;

@@ -7,7 +7,7 @@ const Product = ({title, data}) => {
       <h1>{title}</h1>
       <div className={styles.container}>{data.map((i) => {
         return (
-          <img src={i["url"]}/>
+          <img src={i["url"].slice(5)}/>
         )
         })
       }</div>		

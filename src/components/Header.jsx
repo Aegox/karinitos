@@ -12,14 +12,14 @@ const Header = () => {
 					<a href="mailto:infokarinitos@gmail.co">infokarinitos@gmail.com</a>
 				</article>
 				<article>
-					<img src="./public/assets/instagram.svg" width="25px" alt=""/>
-					<img src="./public/assets/facebook.svg" width="25px" alt=""/>
-					<img src="./public/assets/whatsapp.svg" width="25px" alt=""/>
+					<img src="/assets/instagram.svg" width="25px" alt=""/>
+					<img src="/assets/facebook.svg" width="25px" alt=""/>
+					<img src="/assets/whatsapp.svg" width="25px" alt=""/>
 				</article>
 				
 			</div>	
 			<div className={styles.centerbrand}>
-				<img src="./public/assets/karinitos.png" alt=""/>	
+				<img src="/assets/karinitos.png" alt=""/>	
 			</div>
       <Nav/>  
     </header>

@@ -1,78 +1,199 @@
 {
-    "cajas-de-regalo": {
-        "genericas": [
-            {
-                "id": 1,
-                "name": "Caja de regalo de carton.",
-                "path": "./assets/cajas-de-regalo/cajas-de-regalo-01.jpeg",
-                "description": "Esta caja para regalo esta decorado con dibujos de mariposas hechos en pintura de vinilo."
-            },
-            {
-                "id": 2,
-                "name": "Caja de regalo de carton.",
-                "path": "./assets/cajas-de-regalo/cajas-de-regalo-02.jpeg",
-                "description": "Esta caja para regalo esta decorado con dibujos de pasteles y una frase de feliz cumpleanos, ideal para guardar un regalo para un cumpleanos."
-            },
-            {
-                "id": 3,
-                "name": "Caja de regalo de carton.",
-                "path": "./assets/cajas-de-regalo/cajas-de-regalo-03.jpeg",
-                "description": "Esta caja para regalo esta decorado con dibujos de globos y una frase de feliz cumpleanos, ideal para guardar un regalo para un cumpleanos."
-            },
-            {
-                "id": 4,
-                "name": "Caja de regalo de carton.",
-                "path": "./assets/cajas-de-regalo/cajas-de-regalo-04.jpeg",
-                "description": "Esta caja para regalo es para colocar sobres, con una frase hecha en vinilo que pone 'Lluvia de sobres'."
-            },
-            {
-                "id": 5,
-                "name": "Caja de regalo de carton.",
-                "path": "./assets/cajas-de-regalo/cajas-de-regalo-05.jpeg",
-                "description": "Esta caja para regalo esta hecha de una forma cilindrica, con una tapa con flores amarillas en foami con un fondo de color rosado y detalles de petalos en color morado, tiene una frase de cumpleanos con un lindo dibujo y pintado de color blanco completamente, ideal para guardar un regalo de cumpleanos."
-            },
-            {
-                "id": 6,
-                "name": "Caja de regalo de carton.",
-                "path": "./assets/cajas-de-regalo/cajas-de-regalo-06.jpeg",
-                "description": "Esta caja de regalo es para regalar a un tu pareja, esta completamente pintada de blanco con una frase con detalles de corazones y color rojo que dice 'Para el amor de mi vida'."
-            },
-            {
-                "id": 7,
-                "name": "Caja de regalo de carton.",
-                "path": "./assets/cajas-de-regalo/cajas-de-regalo-07.jpeg",
-                "description": "Esta caja de regalo es para una boda donde se pueden colocar sobres, viene con un bordado en dorado, detalles en foami y de totalmente de blanco y con una frase que dice 'Nuestra boda'."
-            }
-        ],
-        "personalizadas": [
-            {
-                "id": 1,
-                "name": "Caja de regalo de carton.",
-                "path": "./assets/cajas-de-regalo/cajas-de-regalo-personalizadas-01.jpeg",
-                "description": "Esta caja es grande, se le puede colocar: un pastel, dulces, fotos (de preferecia), color de fondo y frases colocadas en banderinas.",
-                "other-img": [
-                    {
-                        "path": "./assets/cajas-de-regalo/cajas-de-regalo-personalizadas-02.jpeg"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "name": "Caja de regalo de carton.",
-                "path": "./assets/cajas-de-regalo/cajas-de-regalo-personalizadas-03.jpeg",
-                "description": "Esta caja es grande, se puede estirar la tapa al abrirla, se puedes colocar: fotos, textos, dulces, globos, y detalles en foami ademas de poder cambiar el color del fondo."
-            },    
-            {
-                "id": 3,
-                "name": "Caja de regalo de carton.",
-                "path": "./assets/cajas-de-regalo/cajas-de-regalo-personalizadas-04.jpeg",
-                "description": "Esta caja es grande al abrirla se desarma para que se pueda ver el detalle, se puede colocar: dulces, fotos, textos, detalles en foami entre otros.",               
-								"other-img": [
-                    {
-                        "path": "./assets/cajas-de-regalo/cajas-de-regalo-personalizadas-06.jpeg"
-                    }
-                ]
-            }
+    "cajas-de-regalo": [
+      { "url": "./src/assets/cajas-de-regalo/cajas-de-regalo-01.jpeg"  },
+      { "url": "./src/assets/cajas-de-regalo/cajas-de-regalo-02.jpeg"  },
+      { "url": "./src/assets/cajas-de-regalo/cajas-de-regalo-03.jpeg"  },
+      { "url": "./src/assets/cajas-de-regalo/cajas-de-regalo-04.jpeg"  },
+      { "url": "./src/assets/cajas-de-regalo/cajas-de-regalo-05.jpeg"  },
+      { "url": "./src/assets/cajas-de-regalo/cajas-de-regalo-06.jpeg"  },
+      { "url": "./src/assets/cajas-de-regalo/cajas-de-regalo-07.jpeg"  },
+      { "url": "./src/assets/cajas-de-regalo/cajas-de-regalo-personalizadas-01.jpeg"  },
+      { "url": "./src/assets/cajas-de-regalo/cajas-de-regalo-personalizadas-02.jpeg"  },
+      { "url": "./src/assets/cajas-de-regalo/cajas-de-regalo-personalizadas-03.jpeg"  },
+      { "url": "./src/assets/cajas-de-regalo/cajas-de-regalo-personalizadas-05.jpeg"  },
+      { "url": "./src/assets/cajas-de-regalo/cajas-de-regalo-personalizadas-06.jpeg"  }
+    ],
+    "anchetas": [
+      { "url": "./src/assets/anchetas/anchetas-01.jpeg"  },
+      { "url": "./src/assets/anchetas/anchetas-02.jpeg"  },
+      { "url": "./src/assets/anchetas/anchetas-03.jpeg"  },
+      { "url": "./src/assets/anchetas/anchetas-04.jpeg"  },
+      { "url": "./src/assets/anchetas/anchetas-05.jpeg"  },
+      { "url": "./src/assets/anchetas/anchetas-06.jpeg"  },
+      { "url": "./src/assets/anchetas/anchetas-07.jpeg"  },
+      { "url": "./src/assets/anchetas/anchetas-08.jpeg"  },
+      { "url": "./src/assets/anchetas/anchetas-09.jpeg"  },
+      { "url": "./src/assets/anchetas/anchetas-10.jpeg"  }
+
+    ],
+    "decoraciones": [
+      { 
+        "arreglo-de-flores": [
+          { "url": "./src/assets/decoraciones/arreglo-de-flores-01.jpeg"  },
+          { "url": "./src/assets/decoraciones/arreglo-de-flores-02.jpeg"  },
+          { "url": "./src/assets/decoraciones/arreglo-de-flores-03.jpeg"  }
         ]
-		}
+      },
+      { 
+        "banderines": [
+          { "url": "./src/assets/decoraciones/banderines-01.jpeg" },
+          { "url": "./src/assets/decoraciones/banderines-02.jpeg" },
+          { "url": "./src/assets/decoraciones/banderines-3.jpeg"  }
+        ]  
+      },
+      {
+        "carteles-de-bienvenida": [
+          { "url": "./src/assets/decoraciones/carteles-de-bienvenida-01.jpeg" },
+          { "url": "./src/assets/decoraciones/carteles-de-bienvenida-02.jpeg" },
+          { "url": "./src/assets/decoraciones/carteles-de-bienvenida-03.jpeg" },
+          { "url": "./src/assets/decoraciones/carteles-de-bienvenida-04.jpeg" },
+          { "url": "./src/assets/decoraciones/carteles-de-bienvenida-05.jpeg" }
+        ]  
+      },
+      {
+        "decoracion-para-fiestas": [
+          { 
+            "url": "./src/assets/decoraciones/decoracion-para-fiestas-01.jpeg",
+            "extras": [
+              {"url": "./src/assets/decoraciones/decoracion-para-fiestas-01.02.jpeg"},
+              {"url": "./src/assets/decoraciones/decoracion-para-fiestas-01.03.jpeg"},
+              {"url": "./src/assets/decoraciones/decoracion-para-fiestas-01.04.jpeg"}
+            ]
+          },
+          { 
+            "url": "./src/assets/decoraciones/decoracion-para-fiestas-02.jpeg",
+            "extras": [
+              {"url": "./src/assets/decoraciones/decoracion-para-fiestas-02.02.jpeg"}
+            ]
+          },
+          {"url": "./src/assets/decoraciones/decoracion-para-fiestas-03.jpeg"},
+          {"url": "./src/assets/decoraciones/decoracion-para-fiestas-04.jpeg"}
+        ] 
+      },
+      {
+        "decoracion-para-pasteles": [
+          { "url": "./src/assets/decoraciones/decoracion-para-pasteles-01.jpeg" },
+          { "url": "./src/assets/decoraciones/decoracion-para-pasteles-02.jpeg" },
+          { "url": "./src/assets/decoraciones/decoracion-para-pasteles-03.jpeg" },
+          { "url": "./src/assets/decoraciones/decoracion-para-pasteles-04.jpeg" },
+          { "url": "./src/assets/decoraciones/decoracion-para-pasteles-05.jpeg" },
+          { "url": "./src/assets/decoraciones/decoracion-para-pasteles-06.jpeg" },
+          { "url": "./src/assets/decoraciones/decoracion-para-pasteles-07.jpeg" }
+        ]  
+      },
+      {
+        "figuras-de-icopor": [
+          { "url": "./src/assets/decoraciones/figuras-de-icopor-01.jpeg" },
+          { "url": "./src/assets/decoraciones/figuras-de-icopor-02.jpeg" },
+          { "url": "./src/assets/decoraciones/figuras-de-icopor-03.jpeg" },
+          { "url": "./src/assets/decoraciones/figuras-de-icopor-04.jpeg" },
+          { "url": "./src/assets/decoraciones/figuras-de-icopor-05.jpeg" },
+          { "url": "./src/assets/decoraciones/figuras-de-icopor-06.jpeg" },
+          { "url": "./src/assets/decoraciones/figuras-de-icopor-07.jpeg" },
+          { "url": "./src/assets/decoraciones/figuras-de-icopor-08.jpeg" }
+        ]  
+      },
+      {
+        "globos-personalizados": [
+          { "url": "./src/assets/decoraciones/globos-personalizados-01.jpeg" },
+          { "url": "./src/assets/decoraciones/globos-personalizados-02.jpeg" },
+          { "url": "./src/assets/decoraciones/globos-personalizados-03.jpeg" },
+          { "url": "./src/assets/decoraciones/globos-personalizados-04.jpeg" },
+          { "url": "./src/assets/decoraciones/globos-personalizados-05.jpeg" },
+          { "url": "./src/assets/decoraciones/globos-personalizados-06.jpeg" },
+          { "url": "./src/assets/decoraciones/globos-personalizados-07.jpeg" },
+          { "url": "./src/assets/decoraciones/globos-personalizados-08.jpeg" },
+          { "url": "./src/assets/decoraciones/globos-personalizados-08.jpeg" },
+          { "url": "./src/assets/decoraciones/globos-personalizados-10.jpeg" }
+        ]  
+      },
+      {
+        "marcado-de-cuadernos": [
+          { "url": "./src/assets/decoraciones/marcado-de-cuadernos-01.jpeg" },
+          { "url": "./src/assets/decoraciones/marcado-de-cuadernos-02.jpeg" },
+          { "url": "./src/assets/decoraciones/marcado-de-cuadernos-03.jpeg" },
+          { "url": "./src/assets/decoraciones/marcado-de-cuadernos-04.jpeg" },
+          { "url": "./src/assets/decoraciones/marcado-de-cuadernos-05.jpeg" },
+          { "url": "./src/assets/decoraciones/marcado-de-cuadernos-06.jpeg" },
+          { "url": "./src/assets/decoraciones/marcado-de-cuadernos-07.jpeg" },
+          { "url": "./src/assets/decoraciones/marcado-de-cuadernos-08.jpeg" },
+          { "url": "./src/assets/decoraciones/marcado-de-cuadernos-09.jpeg" },
+          { "url": "./src/assets/decoraciones/marcado-de-cuadernos-10.jpeg" }
+        ]  
+      },
+      {
+        "marco-de-selfies": [
+          { "url": "./src/assets/decoraciones/marc0-de-selfies-01.jpeg" },
+          { "url": "./src/assets/decoraciones/marc0-de-selfies-02.jpeg" },
+          { "url": "./src/assets/decoraciones/marc0-de-selfies-03.jpeg" },
+          { "url": "./src/assets/decoraciones/marc0-de-selfies-04.jpeg" },
+          { "url": "./src/assets/decoraciones/marc0-de-selfies-05.jpeg" }
+        ]  
+      },
+      {
+        "pinatas-personalizadas": [
+          { "url": "./src/assets/decoraciones/pinatas-personalizadas-01.jpeg" },
+          { "url": "./src/assets/decoraciones/pinatas-personalizadas-02.jpeg" },
+          { "url": "./src/assets/decoraciones/pinatas-personalizadas-03.jpeg" }
+        ]  
+      }
+    ],
+    "foami": [
+      {
+        "carpetas-de-foami": [
+          { "url": "./src/assets/foami/carpetas-de-foami-01.jpeg" },
+          { "url": "./src/assets/foami/carpetas-de-foami-02.jpeg" }
+        ]  
+      },
+      {
+        "figuras-de-foami": [
+          { "url": "./src/assets/foami/figuras-de-foami-01.jpeg" },
+          { "url": "./src/assets/foami/figuras-de-foami-02.jpeg" },
+          { "url": "./src/assets/foami/figuras-de-foami-03.jpeg" },
+          { "url": "./src/assets/foami/figuras-de-foami-04.jpeg" },
+          { "url": "./src/assets/foami/figuras-de-foami-05.jpeg" },
+          { "url": "./src/assets/foami/figuras-de-foami-06.jpeg" },
+          { "url": "./src/assets/foami/figuras-de-foami-07.jpeg" }
+        ]  
+      },
+      {
+        "maquetas": [
+          { "url": "./src/assets/foami/maquetas-01.jpeg" },
+          { "url": "./src/assets/foami/maquetas-02.jpeg" },
+          { "url": "./src/assets/foami/maquetas-04.jpeg" },
+          { "url": "./src/assets/foami/maquetas-05.jpeg" }
+        ]  
+      },
+      {
+        "toppers-amor": [
+          { "url": "./src/assets/foami/toppers-01-amor.jpeg" },
+          { "url": "./src/assets/foami/toppers-02-amor.jpeg" },
+          { "url": "./src/assets/foami/toppers-03-amor.jpeg" },
+          { "url": "./src/assets/foami/toppers-04-amor.jpeg" },
+          { "url": "./src/assets/foami/toppers-05-amor.jpeg" },
+          { "url": "./src/assets/foami/toppers-06-amor.jpeg" }
+        ]  
+      },
+      {
+        "toppers-feliz-dia": [
+          { "url": "./src/assets/foami/toppers-01-feliz-dia.jpeg" },
+          { "url": "./src/assets/foami/toppers-02-feliz-dia.jpeg" },
+          { "url": "./src/assets/foami/toppers-03-feliz-dia.jpeg" },
+          { "url": "./src/assets/foami/toppers-04-feliz-dia.jpeg" },
+          { "url": "./src/assets/foami/toppers-05-feliz-dia.jpeg" }
+        ]  
+      },
+      {
+        "toppers-personalizados": [
+          { "url": "./src/assets/foami/toppers-personalizados-01.jpeg" },
+          { "url": "./src/assets/foami/toppers-personalizados-02.jpeg" },
+          { "url": "./src/assets/foami/toppers-personalizados-03.jpeg" },
+          { "url": "./src/assets/foami/toppers-personalizados-04.jpeg" },
+          { "url": "./src/assets/foami/toppers-personalizados-05.jpeg" },
+          { "url": "./src/assets/foami/toppers-personalizados-06.jpeg" },
+          { "url": "./src/assets/foami/toppers-personalizados-07.jpeg" },
+          { "url": "./src/assets/foami/toppers-personalizados-08.jpeg" }
+        ]  
+      }
+    ]
 }

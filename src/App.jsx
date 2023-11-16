@@ -1,14 +1,18 @@
 import styles from './styles/App.module.css';
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
-import Main from "./components/Main.jsx";
+import Products from './components/Products.jsx';
+import About from './components/About.jsx';
+import Contact from './components/Contact.jsx';
 
 const App = () => {
 
   return (
     <div>
-			<Header/>
-			<Main/>
+      <Header/>
+      <About/>
+      <Contact/>
+      <Products/>
 			<Footer/>
     </div>
   )

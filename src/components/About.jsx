@@ -48,7 +48,7 @@ const About = () => {
               <p> Descubre el arte de celebrar con nosotros y deja que Karinitos Decoraciones, anchetas y regalos sea tu socio en la creación de <strong>momentos inolvidables</strong>.</p>
             </article>
             <article className={styles.images}>
-              <img src="./src/assets/decoraciones/decoracion-para-fiestas-01.jpeg"/>
+              <img src="./src/assets/decoraciones/decoracion-para-fiestas-04.jpeg"/>
               <img src="./src/assets/anchetas/anchetas-03.jpeg"/> 
             </article>
           </section>       

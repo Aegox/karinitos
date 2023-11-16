@@ -28,7 +28,8 @@ const Footer = () => {
 		</div>
 		<section className={styles.copyright}>
 			<h6>Karinitos | Todos los derechos reservados | Bogota, Colombia | 2023</h6>	
-    </section>        
+    </section> 
+
 	</footer>  
 	)
 }

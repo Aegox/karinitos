@@ -9,4 +9,19 @@
 
 body {
 	background-color: #f9ffff;
+  margin: auto
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container iframe {
+  margin-bottom: 50px;
+  border: none
+
+}
+

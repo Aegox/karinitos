@@ -37,7 +37,7 @@ const Contact = () => {
   console.log(formData)
 
   return (
-    <main className={styles.container}>
+    <main id="contacto" className={styles.container}>
       <form id={styles.form} class="formulary" onSubmit={handleSubmit}>
         <h1>Contactanos para Cotizar!</h1>
         <label>

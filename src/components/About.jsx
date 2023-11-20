@@ -35,12 +35,21 @@ const About = () => {
   ]
 
     return (
-        <main className={styles.container}>
+      <main  className={styles.container}>
+        <a href="https://api.whatsapp.com/send?phone=573224209113" target="_blank">
+          <img src="/assets/whatsapp.svg"/>
+        </a>
           <section className={styles.introduccion}>
-            <span>Hacemos que compartir sea hermoso dandole a tu seres queridos los mejores detalles.</span>
+            <article>
+              <h1>Decoraciones para fiestas y eventos</h1>
+              <span>Hacemos que compartir sea 
+              hermoso dandoles a tu seres 
+              queridos los mejores detalles.</span>
+            <a href="#contacto">CONTACTENOS</a>
+            </article>
             <img src="/assets/image1.png"/>
           </section>
-          <section className={styles.about}>
+          <section id="about" className={styles.about}>
             <article className={styles.text}>
               <h1>Sobre Nosotros</h1>
               <p>Bienvenidos a <strong> Karinitos Decoraciones, anchetas y regalos</strong>, el destino perfecto para transformar momentos especiales en experiencias inolvidables. Nos dedicamos con pasión a la creación de manualidades, adornos y decoraciones que agregan un toque único a tus eventos más importantes. </p>

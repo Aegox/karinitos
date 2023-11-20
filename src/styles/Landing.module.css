@@ -4,26 +4,72 @@
   width: 100%;
 
 }
+.container a img {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #71eb85;
+  border-radius: 100%;
+  padding: 10px
+}
 
 .introduccion {
   display: flex;
+  width: 100%;
   height: 70vh;
   background-color:#7DD0D4
 }
 
 .introduccion img {
   aspect-ratio: 16/9;
-  height: 90%;
+  height: 80%;
+  width: 60%;
   align-self: flex-end
+}
+
+.introduccion article {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-left: 100px;
+}
+
+.introduccion article h1 {
+  color: white;
+  width: 80%;
+  font-size: 65px;
+  font-weight: 400;
 }
 
 .introduccion span {
   color: white;
-  width: 50%;
-  font-size: 50px;
-  align-self: center;
-  margin-left: 30px;
-  font-weight: bold
+  width: 100%;
+  font-size: 25px;
+  font-weight: 400;
+  margin-left:  120px
+}
+
+
+.introduccion article a {
+  padding: 20px;
+  border-radius: 30px ;
+  border: 2px solid white;
+  background: rgba(0,0,0, 0.0);
+  color: white;
+  font-weight: bold;
+  font-size:  15px;
+  margin-top: 20px;
+  text-decoration: none
+}
+
+.introduccion article a:hover {
+  background-color: white;
+  color: #7DD0D4;
+  cursor: pointer
+
 }
 
 .about {

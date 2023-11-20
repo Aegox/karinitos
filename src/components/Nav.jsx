@@ -5,12 +5,12 @@ const Nav = () => {
   return (
      	<nav className={styles.bottombrand}>
     				<a href="/inicio">Inicio</a>
-    				<a href="#">Sobre nosotros</a>
-    				<a href="#">Cajas de Regalo</a>	
-						<a href="#">Anchetas</a>
-    				<a href="#">Decoraciones</a>
-						<a href="#">Foami</a>
-    				<a href="#">Contacto</a>
+    				<a href="#about">Sobre nosotros</a>
+    				<a href="#Cajas de Regalo">Cajas de Regalo</a>	
+						<a href="#Anchetas">Anchetas</a>
+    				<a href="#Decoraciones para Fiestas">Decoraciones</a>
+						<a href="#Figuras de Foami">Foami</a>
+    				<a href="#contacto">Contacto</a>
 			</nav>
   )
 }
